@@ -1,0 +1,9 @@
+# Ignore unecessary files
+# Filter everything...
+*
+
+# ... except the .gitignore...
+!.gitignore
+
+# ... and all CSS files.
+!*.css
