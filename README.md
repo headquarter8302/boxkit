@@ -31,39 +31,39 @@ This method could be used, if you somehow can't use a link tag, such as using it
 ### Classes
 The list below contains all available classes in the stylesheet
 ````css
-box
-round (defaults to 5px)
-round-10px
-round-15px
-round-20px
-round-30px
-background-blue
-background-red
-background-green
-background-yellow
-background-pink
-background-purple
-background-turqoise (and more!)
-shadow-1
-shadow-3
-shadow-5
-shadow-10
-shadow-15
-shadow-20
-triangle
-circle
-padding (defaults to 5px)
-padding-10px
-padding-15px
-padding-20px
-padding-30px
-padding-50px
-margin (defaults to 5px)
-margin-10px
-margin-15px
-margin-20px
-margin-30px
-margin-50px
+.box
+.round (defaults to 5px)
+.round-10px
+.round-15px
+.round-20px
+.round-30px
+.background-blue
+.background-red
+.background-green
+.background-yellow
+.background-pink
+.background-purple
+.background-turqoise (and more!)
+.shadow-1
+.shadow-3
+.shadow-5
+.shadow-10
+.shadow-15
+.shadow-20
+.triangle
+.circle
+.padding (defaults to 5px)
+.padding-10px
+.padding-15px
+.padding-20px
+.padding-30px
+.padding-50px
+.margin (defaults to 5px)
+.margin-10px
+.margin-15px
+.margin-20px
+.margin-30px
+.margin-50px
 ````
 And more coming!
 
