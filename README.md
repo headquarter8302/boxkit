@@ -119,10 +119,12 @@ The list below contains all available classes in the stylesheet
 .border-pink
 .border-purple
 .border-turqoise
+.header-1
+.header-2
 ````
 And more coming!
 
-The properties are made from classes for a reason, you could combine them!
+The properties are made from classes for a reason, you could combine them! And almost all of them could be blended together seamlessly!
 ````html
 <div class="box round-10px background-red padding">This is a box with a 10 pixels border-radius, red background and a 5 pixel padding.</div>
 ````
