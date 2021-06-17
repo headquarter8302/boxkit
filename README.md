@@ -31,7 +31,10 @@ This method could be used, if you somehow can't use a link tag, such as using it
 
 ## Uses!
 ### Classes
+<details>
 The list below contains all available classes in the stylesheet
+  <summary>Click to expand</summary>
+
 ````css
 .box
 .round (defaults to 5px)
@@ -125,6 +128,8 @@ The list below contains all available classes in the stylesheet
 .header-2
 ````
 And more coming!
+
+</details>
 
 The properties are made from classes for a reason, you could combine them! And almost all of them could be blended together seamlessly!
 ````html
