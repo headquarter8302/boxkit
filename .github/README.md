@@ -1,3 +1,11 @@
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/headquarter8302/boxkit?label=size&style=for-the-badge)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/headquarter8302/boxkit?style=for-the-badge)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/headquarter8302/boxkit/v0.1-alpha/total?color=blue&label=download%20alpha&style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/headquarter8302/boxkit?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/headquarter8302/boxkit?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/headquarter8302/boxkit?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/headquarter8302/boxkit)
+
 <p align="center"><img src="https://github.com/headquarter8302/boxkit/blob/main/boxkit%20logo%20wh%20bg.png" width="250px" /></p>
 
 # BOXKit
