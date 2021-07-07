@@ -4,7 +4,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/headquarter8302/boxkit?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/headquarter8302/boxkit?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/headquarter8302/boxkit?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/headquarter8302/boxkit)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/headquarter8302/boxkit?style=for-the-badge)
 
 <p align="center"><img src="https://github.com/headquarter8302/boxkit/blob/main/boxkit%20logo%20wh%20bg.png" width="250px" /></p>
 
