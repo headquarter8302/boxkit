@@ -10,12 +10,7 @@
 
 /* = The Box = */
 .box {
-  border: 3px solid black;
-}
-
-/* = Invert = */
-.invert {
-  filter: invert(1);
+  border: 3px solid;
 }
 
 /* == Border radius-es == */
@@ -36,6 +31,9 @@
 }
 
 /* == Backgrounds == */
+.background-white {
+  background-color: white;
+}
 .background-blue {
   background-color: blue;
 }
@@ -60,22 +58,22 @@
 
 /* == Shadows == */
 .shadow-1 {
-  box-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 1px;
 }
 .shadow-3 {
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 3px 3px 3px;
 }
 .shadow-5 {
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px;
 }
 .shadow-10 {
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 10px;
 }
 .shadow-15 {
-  box-shadow: 15px 15px 15px black;
+  box-shadow: 15px 15px 15px;
 }
 .shadow-20 {
-  box-shadow: 20px 20px 20px black;
+  box-shadow: 20px 20px 20px;
 }
 
 /* == Shapes == */
@@ -84,13 +82,13 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 100px solid black;
+  border-bottom: 100px solid;
 }
 .circle {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 3px solid black;
+  border: 3px solid;
 }
 
 /* == Paddings == */
@@ -298,46 +296,46 @@
 /* == Borders == */
 /* === Universal === */
 .border-5px {
-  border: 5px solid black;
+  border: 5px solid;
 }
 .border-10px {
-  border: 10px solid black;
+  border: 10px solid;
 }
 
 /* === Left === */
 .border-left-5px {
-  border-left: 5px solid black;
+  border-left: 5px solid;
 }
 .border-left-10px {
-  border-left: 10px solid black;
+  border-left: 10px solid;
 }
 
 /* === Top === */
 .border-left-5px {
-  border-top: 5px solid black;
+  border-top: 5px solid;
 }
 .border-left-10px {
-  border-top: 10px solid black;
+  border-top: 10px solid;
 }
 
 /* === Right === */
 .border-right-5px {
-  border-right: 5px solid black;
+  border-right: 5px solid;
 }
 .border-right-10px {
-  border-right: 10px solid black;
+  border-right: 10px solid;
 }
 
 /* === Bottom === */
 .border-bottom-5px {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid;
 }
 .border-bottom-10px {
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid;
 }
 
 /* == Border Colour == */
-.border-color-blue {
+.border-blue {
   border-color: blue;
 }
 .border-red {
@@ -362,7 +360,7 @@
 /* == Box Headers == */
 /* === Universal === */
 .box > .header:nth-child(1) {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid;
   font-weight: bold;
 }
 
@@ -398,4 +396,28 @@
 }
 .round-30.header-2:nth-child(1), .round-30 header-2:nth-child(1) {
   border-radius: 30px 30px 30px 30px;
+}
+
+/* == Special effects == */
+/* Note that these effects might not work on older browsers */
+/* === Background effects === */
+.background-blur {
+  backdrop-filter: blur(5px);
+}
+.background-invert {
+  backdrop-filter: invert(1);
+}
+.background-sepia {
+  backdrop-filter: sepia(1);
+}
+
+/* === Element effects === */
+.blur {
+  filter: blur(5px);
+}
+.invert {
+  filter: invert(1);
+}
+.sepia {
+  filter: sepia(1);
 }
