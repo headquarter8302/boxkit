@@ -13,6 +13,8 @@
   border: 3px solid;
 }
 
+/* == Colours == */
+
 /* == Border radius-es == */
 .round { /* <-- Defaults to 5px */
   border-radius: 5px;
@@ -54,6 +56,9 @@
 }
 .background-turqoise {
   background-color: #40e0d0;
+}
+.background-transparent {
+  background: transparent;
 }
 
 /* == Shadows == */
@@ -396,6 +401,23 @@
 }
 .round-30.header-2:nth-child(1), .round-30 header-2:nth-child(1) {
   border-radius: 30px 30px 30px 30px;
+}
+
+/* == Buttons == */
+.button {
+  padding: 1%;
+  margin: 2%;
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  transition: box-shadow 250ms;
+  appearance: none;
+}
+.button:hover {
+  box-shadow: 0 0 5px black;
+}
+.button:active {
+  box-shadow: 0 0 5px black inset;
 }
 
 /* == Special effects == */
